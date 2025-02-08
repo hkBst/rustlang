@@ -59,10 +59,10 @@ fn main() {
     println!("Sun altitude                   = {:.3} °", sun_max_altitude); // expected 46.892 deg
     println!("Atmospheric refraction         =  {:.3} °", atmosfer_refract); // expected 0.015 deg
     println!("Refraction corrected elevation = {:.3} °", correct_height); // expected 46.91 deg
-    println!("Day length             = {:.?}", daylen);
-    println!("Sunrise time           = {:.?} ", rise_time);
-    println!("Noon time              = {:.?}", noon_time);
-    println!("Sunset time            = {:.?}", set_time);
+    println!("Day length             = {:?}", daylen);
+    println!("Sunrise time           = {:?} ", rise_time);
+    println!("Noon time              = {:?}", noon_time);
+    println!("Sunset time            = {:?}", set_time);
   } // End of main
 
     fn get_hrmn(dayfract: f64) -> NaiveTime {
